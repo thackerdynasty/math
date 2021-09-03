@@ -4,7 +4,6 @@ def beginthecalc():
     calc = input("What would you like to do?(x! for factorial, regular for basic calculations, bc for binary converter, sqrt for square roots, x^y for powers, and gl for less/greater than.) ")
     if calc.lower() == "x!":
         n = int(input("What number do you want the factorial of? "))
-        print("Prossesing...(5 seconds per 100,000 although that won't fit.")
         print(m.factorial(n))
     elif calc.lower() == "regular":
         print("Type each character(Excluding spaces) in your equation on a seperate line(*for multiplication, / for division.)")
